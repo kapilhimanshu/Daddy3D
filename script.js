@@ -96,6 +96,9 @@ if (
         'https://api.web3forms.com/submit',
         {
           method: 'POST',
+            headers: {
+      'Accept': 'application/json'
+    },
           body: formData
         }
       );
