@@ -32,6 +32,36 @@
   >
 
 </div>
+  /* Header dual-logo layout */
+.header-brand-group {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  flex-wrap: nowrap !important;
+  gap: 10px;
+  flex-shrink: 0;
+}
+
+.header-brand-group .brand {
+  flex-shrink: 0;
+}
+
+.brand-divider {
+  display: block;
+  width: 1px;
+  height: 26px;
+  background: rgba(100, 116, 139, 0.28);
+  flex-shrink: 0;
+}
+
+.additional-logo1 {
+  display: block;
+  width: auto;
+  height: 30px;
+  max-width: 105px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
   <nav class="nav" id="nav" aria-label="Primary navigation"><a href="#home">Home</a><a href="#about">About</a><a href="#services">Services</a><a href="#industries">Industries</a><a href="#work">Work</a><a href="#process">Process</a><a href="#contact">Contact</a></nav>
   <div class="header-actions"><button id="themeToggle" class="theme-toggle" aria-label="Toggle color theme">☼</button><a href="#contact" class="btn btn-primary btn-small">Start a project <span>→</span></a><button id="menuBtn" class="menu-btn" aria-label="Open menu">☰</button></div>
 </header>
